@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Employer.EmployeeRegistration">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Employer.EmployeeRegistration -->
+      <class name="Employer.EditPostedJob">
+        <methods>
+          <include name="NavigatingToEditapostedJob"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="EditingTheExistingpostJobDetails"/>
+        </methods>
+      </class> <!-- Employer.EditPostedJob -->
+      <class name="Employer.AddAnotherProfile">
+        <methods>
+          <include name="launchB"/>
+        </methods>
+      </class> <!-- Employer.AddAnotherProfile -->
+      <class name="Employer.LogincheckwithRegistereduser">
+        <methods>
+          <include name="launchB"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Employer.LogincheckwithRegistereduser -->
+      <class name="Employer.PostaJob">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Employer.PostaJob -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 10 17:07:46 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>393 seconds (393744 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Employer.EditPostedJob.EditingTheExistingpostJobDetails()'><b>EditingTheExistingpostJobDetails</b><br>Test class: Employer.EditPostedJob</td>
+<td></td>
+<td>56</td>
+<td>Employer.EditPostedJob@55f3ddb1</td></tr>
+<tr>
+<td title='Employer.PostaJob.EnteringDetailsInPostJobScreen()'><b>EnteringDetailsInPostJobScreen</b><br>Test class: Employer.PostaJob</td>
+<td></td>
+<td>121</td>
+<td>Employer.PostaJob@c038203</td></tr>
+<tr>
+<td title='Employer.EditPostedJob.NavigatingToEditapostedJob()'><b>NavigatingToEditapostedJob</b><br>Test class: Employer.EditPostedJob</td>
+<td></td>
+<td>14</td>
+<td>Employer.EditPostedJob@55f3ddb1</td></tr>
+<tr>
+<td title='Employer.PostaJob.NavigationToPostJob()'><b>NavigationToPostJob</b><br>Test class: Employer.PostaJob</td>
+<td></td>
+<td>5</td>
+<td>Employer.PostaJob@c038203</td></tr>
+<tr>
+<td title='Employer.AddAnotherProfile.addnewProfileInPracticeProfileScreen()'><b>addnewProfileInPracticeProfileScreen</b><br>Test class: Employer.AddAnotherProfile</td>
+<td></td>
+<td>37</td>
+<td>Employer.AddAnotherProfile@cc285f4</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.employerRegistration()'><b>employerRegistration</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>6</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.employerRegistrationpageNavigation()'><b>employerRegistrationpageNavigation</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>17</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.getpagetitle()'><b>getpagetitle</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>8</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.login()'><b>login</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>25</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EditPostedJob.loginToEditPostJob()'><b>loginToEditPostJob</b><br>Test class: Employer.EditPostedJob</td>
+<td></td>
+<td>21</td>
+<td>Employer.EditPostedJob@55f3ddb1</td></tr>
+<tr>
+<td title='Employer.PostaJob.logintoPostaJob()'><b>logintoPostaJob</b><br>Test class: Employer.PostaJob</td>
+<td></td>
+<td>23</td>
+<td>Employer.PostaJob@c038203</td></tr>
+<tr>
+<td title='Employer.LogincheckwithRegistereduser.loginwithNewlyRegistereduser()'><b>loginwithNewlyRegistereduser</b><br>Test class: Employer.LogincheckwithRegistereduser</td>
+<td></td>
+<td>33</td>
+<td>Employer.LogincheckwithRegistereduser@29ee9faa</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.logout()'><b>logout</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>5</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.navigatebackafterRegistration()'><b>navigatebackafterRegistration</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>5</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+<tr>
+<td title='Employer.EmployeeRegistration.verifyPagetitle()'><b>verifyPagetitle</b><br>Test class: Employer.EmployeeRegistration</td>
+<td></td>
+<td>0</td>
+<td>Employer.EmployeeRegistration@6767c1fc</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85756" started-at="2017-02-16T11:25:55Z" finished-at="2017-02-16T11:27:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85756" started-at="2017-02-16T11:25:55Z" finished-at="2017-02-16T11:27:20Z">
+      <class name="Employer.EditPostedJob">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Employer.EditPostedJob@4cc0edeb]" name="launchBrowser" is-config="true" duration-ms="3554" started-at="2017-02-16T16:55:55Z" finished-at="2017-02-16T16:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToEditPostJob()[pri:14, instance:Employer.EditPostedJob@4cc0edeb]" name="loginToEditPostJob" duration-ms="21838" started-at="2017-02-16T16:55:58Z" finished-at="2017-02-16T16:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToEditPostJob -->
+        <test-method status="PASS" signature="NavigatingToEditapostedJob()[pri:15, instance:Employer.EditPostedJob@4cc0edeb]" name="NavigatingToEditapostedJob" duration-ms="14063" started-at="2017-02-16T16:56:20Z" finished-at="2017-02-16T16:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatingToEditapostedJob -->
+        <test-method status="FAIL" signature="EditingTheExistingpostJobDetails()[pri:16, instance:Employer.EditPostedJob@4cc0edeb]" name="EditingTheExistingpostJobDetails" duration-ms="46243" started-at="2017-02-16T16:56:34Z" finished-at="2017-02-16T16:57:20Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given xpath expression ".//*[@id='compensation' AND @value = '3']" is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:52:30 -0700'
+System info: host: 'aravind', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160922113459, version=, platform=MAC, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=11551, browserVersion=49.0.1, platformVersion=16.1.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=darwin, device=desktop}]
+Session ID: c8bc5350-526d-a946-b70b-295a636844f7
+*** Element info: {Using=xpath, value=.//*[@id='compensation' AND @value = '3']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given xpath expression ".//*[@id='compensation' AND @value = '3']" is invalid: SyntaxError: The expression is not a legal expression. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: 'unknown', revision: 'c7b525d', time: '2016-09-01 14:52:30 -0700'
+System info: host: 'aravind', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160922113459, version=, platform=MAC, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=11551, browserVersion=49.0.1, platformVersion=16.1.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=darwin, device=desktop}]
+Session ID: c8bc5350-526d-a946-b70b-295a636844f7
+*** Element info: {Using=xpath, value=.//*[@id='compensation' AND @value = '3']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:631)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at Employer.EditPostedJob.EditingTheExistingpostJobDetails(EditPostedJob.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditingTheExistingpostJobDetails -->
+      </class> <!-- Employer.EditPostedJob -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

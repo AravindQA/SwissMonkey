@@ -1,0 +1,13 @@
+
+<suite name="Suite" parallel="classes"> thread-count = 20
+  <test name="Test">
+    <classes>
+    <class name="Employer.EmployeeRegistration"/>
+      <class name="Employer.LogincheckwithRegistereduser"/>
+      <class name="Employer.PostaJob"/>
+      <class name="Employer.AddAnotherProfile"/>
+      <class name="Employer.EditPostedJob"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
